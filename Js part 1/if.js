@@ -4,7 +4,7 @@
 var boy = "play station";
 var girl = "girl house";
 
-if (boy == "play station") {
+if (7 + 7 == 15) {
   document.write("let's play " + boy);
 } else {
   document.write("let's play at my " + girl);
