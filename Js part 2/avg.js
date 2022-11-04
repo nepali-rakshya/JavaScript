@@ -23,3 +23,13 @@ function mul(a, b) {
 mul(2, 2);
 
 console.log("let's do the multiplication " + multiply * 10);
+console.log(typeof multiply);
+var myName = "Rakshya";
+console.log(typeof myName);
+
+// ************************* MATH object *************
+
+console.log(Math.round(5.5));
+console.log(avg, multiply);
+console.log(Math.round(multiply));
+console.log(Math.PI);
