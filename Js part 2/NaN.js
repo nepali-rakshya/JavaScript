@@ -22,3 +22,5 @@ var string1 = "apple";
 var string2 = "banana";
 
 console.log(string1.toUpperCase());
+
+// ************* SPLIT and SLICE *******************
