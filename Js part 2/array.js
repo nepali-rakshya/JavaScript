@@ -16,3 +16,6 @@ var names = 'Ronald\'s dad loves his "BOOK"';
 var nameChanged = names.slice(6, 9);
 
 console.log(nameChanged);
+
+var myArray = [1, 2, 3, 4];
+document.write(myArray);
