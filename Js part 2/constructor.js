@@ -115,3 +115,4 @@ console.log(person1.height);
 var person2 = new Person();
 person2.weight = 55;
 console.log(person2.weight);
+console.log(person2);
