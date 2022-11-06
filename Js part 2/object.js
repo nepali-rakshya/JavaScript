@@ -17,13 +17,14 @@ or use return type in the object function */
 var myCarRocks = {
   color: "black",
   wheels: 4,
+  seat: 4,
   driver: "rakshya",
   runs: function (km, hour) {
     return "It runs: " + km + "km/" + hour + "hr";
   },
 };
 
-console.log(myCarRocks.driver, myCarRocks.runs(10, 1));
+console.log(myCarRocks.color, "\n" + myCarRocks.driver);
 
 /* https://stackoverflow.com/questions/68418253/javascript-console-log-method-is-outputting-the-function-before-the-text-given
 
