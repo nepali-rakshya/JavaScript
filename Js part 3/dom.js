@@ -1,6 +1,16 @@
 var myDiv = document.getElementsByClassName("container");
 console.log(myDiv);
-console.log(myDiv.getElementsByClassName("row"));
+console.log(myDiv[0].getElementsByClassName("intro__title"));
+var myColumn = document.getElementsByClassName("col");
+console.log(myColumn);
 
-var myArray = [1, 2, 3, 4, 5];
-console.log(myArray[1]);
+console.log(myColumn[0].getElementsByTagName("p"));
+
+var i = 0;
+while (i < myColumn.length) {
+  console.log(
+    "Element with p tag " + i + " =",
+    myColumn[i].getElementsByTagName("p")
+  );
+  i++;
+}
