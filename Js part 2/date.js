@@ -33,3 +33,8 @@ if (one === two) {
 } else {
   console.log("not equal");
 }
+
+// ***********************************************
+
+var confusion = new Date(1970, 0, 1);
+console.log(confusion.getTime());
