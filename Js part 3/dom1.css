@@ -34,7 +34,7 @@ ul {
 
 ul li {
   color: black;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   background: white;
   list-style-type: none;
   font-size: 2rem;
