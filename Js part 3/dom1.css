@@ -24,15 +24,17 @@ body {
   gap: 1em;
 }
 
-h1#main-heading {
+h1#main-heading,
+.main-heading {
   font-size: 3rem;
+  color: wheat;
 }
 
 ul {
   margin: 0 1.5em;
 }
 
-ul li {
+ul .list-items {
   color: black;
   border-bottom: 2px solid black;
   background: white;
