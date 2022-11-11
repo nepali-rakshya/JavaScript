@@ -1,46 +1,46 @@
-// *********** STYLING ELEMENTS *************
+// // *********** STYLING ELEMENTS *************
 
-// var title = document.querySelector("#main-heading");
-// title.style.backgroundColor = "red";
-// console.log(title);
+// // var title = document.querySelector("#main-heading");
+// // title.style.backgroundColor = "red";
+// // console.log(title);
 
-// *********** CREATING ELEMENTS *************
+// // *********** CREATING ELEMENTS *************
 
-var newHead = document.createElement("h1");
-var oldHead = document.querySelector("h1");
+// var newHead = document.createElement("h1");
+// var oldHead = document.querySelector("h1");
 
-oldHead.append(newHead);
+// oldHead.append(newHead);
 
-newHead.innerText = "And Stars";
+// newHead.innerText = "And Stars";
 
-newHead.style.fontSize = "3rem";
+// newHead.style.fontSize = "3rem";
 
-// ************** MODIFYING ATT. AND CLASSES **************
+// // ************** MODIFYING ATT. AND CLASSES **************
 
-// A T T R I B U T E S
+// // A T T R I B U T E S
 
-newHead.setAttribute("class", "main-heading");
+// newHead.setAttribute("class", "main-heading");
 
-var list = document.querySelector("li");
-console.log(list.getAttribute("class"));
+// var list = document.querySelector("li");
+// console.log(list.getAttribute("class"));
 
-newHead.removeAttribute("class");
+// newHead.removeAttribute("class");
 
-// C L A S S E S
+// // C L A S S E S
 
-var list = document.createElement("li");
-var ulList = document.querySelector("ul");
+// var list = document.createElement("li");
+// var ulList = document.querySelector("ul");
 
-ulList.append(list);
-list.innerText = "X-Men";
+// ulList.append(list);
+// list.innerText = "X-Men";
 
-// list.setAttribute("class", "list-items");
-list.classList.add("list-items");
+// // list.setAttribute("class", "list-items");
+// list.classList.add("list-items");
 
-// *************** REMOVE ELEMENTS ***************
+// // *************** REMOVE ELEMENTS ***************
 
-// list.remove();
+// // list.remove();
 
-var ul = document.querySelector("ul");
+// var ul = document.querySelector("ul");
 
-// ul.remove();
+// // ul.remove();
