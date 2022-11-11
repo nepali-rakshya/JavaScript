@@ -15,3 +15,9 @@ function bgChange() {
 }
 
 bg.addEventListener("mouseover", bgChange);
+
+const heading = document.querySelector(".heading1");
+function changeColor() {
+  heading.style.color = "red";
+}
+heading.addEventListener("mouseover", changeColor);
