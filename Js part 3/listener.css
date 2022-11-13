@@ -21,7 +21,8 @@ body {
   margin-bottom: 1.5em;
 }
 
-.boxes {
+.boxes,
+.img-adjust {
   border: 2px solid white;
   padding: 2em;
   font-size: 1em;
@@ -38,6 +39,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+}
+
+.img-adjust {
+  margin-top: 1em;
+  width: fit-content;
+}
+
+img {
+  margin: 1em 0;
+  outline: 2px dotted white;
+  outline-offset: 1em;
 }
 
 @media (min-width: 800px) {
