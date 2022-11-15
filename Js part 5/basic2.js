@@ -1,16 +1,16 @@
-let a = prompt("Hi, what's your name?");
-console.log(parseInt(a));
-console.log(a.toString());
+// let a = prompt("Please write down a number?");
+// console.log(parseInt(a));
 
-const luck = prompt("Choose your luck");
+const luck = parseInt(prompt("Choose your luck"));
+
 switch (luck) {
-  case "1":
+  case 1:
     console.log("Try again.");
-    break;
-  case "2":
+
+  case 2:
     console.log("Try again..");
     break;
-  case "3":
+  case 3:
     console.log("Try again...");
     break;
   case "rakshya":
@@ -19,3 +19,15 @@ switch (luck) {
   default:
     console.log("You have no luck today");
 }
+
+// let names = "rakshya";
+
+// console.log(names === "rakshya" ? "yesss" : "nooo");
+
+// let num = 6;
+
+// if (num % 2 == 0 && num % 3 == 0) {
+//   console.log("yesss");
+// } else {
+//   console.log("noooooo");
+// }
