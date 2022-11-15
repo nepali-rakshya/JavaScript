@@ -57,10 +57,12 @@ const sub = (a, b) => {
 sub(10, 5);
 
 const obj = {
-  names: "rakshya",
+  // names: "rakshya",
   hobby: () => {
     console.log("I love coding");
   },
 };
 
-obj["hobby"]();
+for (key in obj) {
+  obj[key]();
+}
