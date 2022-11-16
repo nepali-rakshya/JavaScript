@@ -99,11 +99,25 @@
 //   i++;
 // }
 
-let ln = 3;
-let j;
-while (j != ln) {
-  j = prompt("Enter a number");
-  console.log("Try again");
+// let ln = 3;
+// let j;
+// while (j != ln) {
+//   j = prompt("Enter a number");
+//   console.log("Try again");
+// }
+
+// console.log("You did it");
+
+const num = (a, b, c, d, e) => {
+  return (a + b + c + d + e) / 5;
+};
+
+console.log(num(1, 2, 3, 4, 5));
+
+function num1(a, b, c, d, e) {
+  return (a + b + c + d + e) / 5;
 }
 
-console.log("You did it");
+const values = num1(1, 2, 3, 4, 5);
+
+console.log(values);
