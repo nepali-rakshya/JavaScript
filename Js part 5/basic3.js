@@ -85,16 +85,25 @@
 //   console.log(key + " " + obj[key]);
 // }
 
-let i = 0;
-while (i >= 0) {
-  let guess = parseInt(prompt("Guess the lukcy num"));
-  let luckyNum = 10;
-  if (guess === luckyNum) {
-    console.log("You are one lucky kid");
-    break;
-  } else {
-    console.log("Try again");
-    // continue;
-  }
-  i++;
+// let i = 0;
+// while (i >= 0) {
+//   let guess = parseInt(prompt("Guess the lukcy num"));
+//   let luckyNum = 10;
+//   if (guess === luckyNum) {
+//     console.log("You are one lucky kid");
+//     break;
+//   } else {
+//     console.log("Try again");
+//     // continue;
+//   }
+//   i++;
+// }
+
+let ln = 3;
+let j;
+while (j != ln) {
+  j = prompt("Enter a number");
+  console.log("Try again");
 }
+
+console.log("You did it");
