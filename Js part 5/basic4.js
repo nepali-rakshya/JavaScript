@@ -37,34 +37,47 @@
 // console.log(a.push(7));
 // console.log(a);
 
-console.log("This is pop");
-let num1 = [1, 2, 3, 4, 11, 6];
-console.log(num1);
-console.log(num1.pop());
-console.log(num1);
+// console.log("This is pop");
+// let num1 = [1, 2, 3, 4, 11, 6];
+// console.log(num1);
+// console.log(num1.pop());
+// console.log(num1);
 
-console.log("This is push");
-console.log(num1.push(10));
-console.log(num1);
+// console.log("This is push");
+// console.log(num1.push(10));
+// console.log(num1);
 
-console.log("This is shift");
-console.log(num1.shift());
-console.log(num1);
+// console.log("This is shift");
+// console.log(num1.shift());
+// console.log(num1);
 
-console.log("This is unshift");
-console.log(num1.unshift(4));
-console.log(num1);
+// console.log("This is unshift");
+// console.log(num1.unshift(4));
+// console.log(num1);
 
-console.log("This is delete");
-delete num1[2];
-console.log(num1);
+// console.log("This is delete");
+// delete num1[2];
+// console.log(num1);
 
-console.log("This is concat");
-let a1 = [1, 2, 3, 4, 5, 6, "here"];
-let b1 = ["okay", 7, 5, 3, 4];
-let c1 = [];
+// console.log("This is concat");
+// let a1 = [1, 2, 3, 4, 5, 6, "here"];
+// let b1 = ["okay", 7, 5, 3, 4];
+// let c1 = [];
 
-let joined = c1.concat(a1, b1);
-let joinedArray = a1.concat(b1);
-console.log(joined);
-console.log(joinedArray);
+// let joined = c1.concat(a1, b1);
+// let joinedArray = a1.concat(b1);
+// console.log(joined);
+// console.log(joinedArray);
+
+// console.log("This is sort");
+// let arra = [3333, 4353, 34, 23, 6, 4, 345, 56745, 778, 5654, 5];
+// let arra1 = ["apple", "arange", "ball", "bello", "arrow"];
+// console.log(arra1.reverse());
+// // console.log(arra.sort());
+// console.log(
+//   arra.sort(function (a, b) {
+//     return a - b;
+//   })
+// );
+
+// https://www.youtube.com/watch?v=kxUNQtheCxM
