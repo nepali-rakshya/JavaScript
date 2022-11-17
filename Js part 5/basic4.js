@@ -82,7 +82,9 @@
 
 // https://www.youtube.com/watch?v=kxUNQtheCxM
 
-let a = [1, 2, 3, 4];
+let sortArray = [22, 56, 75, 34, 77, 2, 4, 53, 56, 45];
+const compare = (a, b) => {
+  return b - a;
+};
 
-console.log(a.unshift(7));
-console.log(a);
+console.log(sortArray.sort(compare));
