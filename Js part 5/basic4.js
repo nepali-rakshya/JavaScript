@@ -81,3 +81,8 @@
 // );
 
 // https://www.youtube.com/watch?v=kxUNQtheCxM
+
+let a = [1, 2, 3, 4];
+
+console.log(a.unshift(7));
+console.log(a);
