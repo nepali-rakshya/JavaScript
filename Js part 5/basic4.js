@@ -88,3 +88,14 @@ const compare = (a, b) => {
 };
 
 console.log(sortArray.sort(compare));
+
+let sorts = [
+  { x: 2, y: 10 },
+  { x: 5, y: 6 },
+];
+
+console.log(
+  sorts.sort((a, b) => {
+    return a.y - b.y;
+  })
+);
