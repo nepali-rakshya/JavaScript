@@ -99,3 +99,14 @@ console.log(
     return a.y - b.y;
   })
 );
+
+console.log("This is slice and splice");
+console.log("");
+
+let num = [3, 4, 5, 6, 7, 8, 2, 3, 20, 2, 1, 11];
+console.log(num.splice(3, 2, 11, 11, 11));
+
+console.log(num, num.length);
+
+// console.log(num.slice(3, 8));
+// console.log(num);
