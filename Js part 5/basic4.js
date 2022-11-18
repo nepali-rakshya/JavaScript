@@ -108,5 +108,5 @@ console.log(num.splice(3, 2, 11, 11, 11));
 
 console.log(num, num.length);
 
-// console.log(num.slice(3, 8));
-// console.log(num);
+console.log(num.slice(3, 8));
+console.log(num);
