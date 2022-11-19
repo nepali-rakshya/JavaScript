@@ -28,7 +28,14 @@
 let age;
 let question = () => {
   age = parseInt(prompt("Enter your age"));
-  return age >= 18 ? alert("You can drive") : alert("You cannot drive");
+
+  return age >= 18
+    ? alert("You can drive")
+    : age < 18 && age > 0
+    ? alert("You cannot drive")
+    : age < 0
+    ? console.error("Invalid")
+    : console.log("Donot use minus");
 };
 
 question();
