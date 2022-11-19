@@ -28,17 +28,26 @@
 let age;
 let question = () => {
   age = parseInt(prompt("Enter your age"));
-
-  return age >= 18
+  age >= 18 // if
     ? alert("You can drive")
-    : age < 18 && age > 0
+    : // window.location.assign("https://www.google.com/"))
+    age < 18 && age >= 4 // else if
     ? alert("You cannot drive")
-    : age < 0
+    : // window.location.assign("https://www.google.com/"))
+    age < 0 // else if
     ? console.error("Invalid")
-    : console.log("Donot use minus");
+    : console.log("Enter a valid number");
 };
 
-question();
-console.log(
-  confirm("Do you want to rewrite?") ? question() : alert("No thanks")
-);
+let result;
+
+do {
+  question();
+  result = confirm("Do you want to rewrite?") ? true : false;
+  if (result === false) {
+    break;
+  }
+} while (result === true);
+
+let color = prompt("Enter your preferred color");
+document.querySelector("body").style.background = color;
