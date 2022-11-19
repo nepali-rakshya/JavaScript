@@ -26,5 +26,3 @@ for (let i = 100; i >= 0; i--) {
 
   console.log("No of chances " + i);
 }
-
-console.log("Better luck next time!!!!!!");
