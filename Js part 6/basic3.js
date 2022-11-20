@@ -1,3 +1,13 @@
 console.log(document.body.parentNode.parentNode.parentNode);
 
-console.log(document.body.childNodes);
+console.log(document.body.firstElementChild);
+console.log(document.body.hasChildNodes());
+console.log(document.body.child);
+
+let arrayConversion = Array.from(document.body.childNodes);
+console.log(arrayConversion);
+
+let node = document.body.childNodes;
+console.log(node);
+
+console.log(document.getElementsByTagName("body"));
