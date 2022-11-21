@@ -3,12 +3,12 @@
 let gameBegin = () => {
   let userInput = prompt("Rock, Paper or Scissors").toUpperCase();
   let user = userInput.charAt(0);
-  console.log(user);
+  console.log("User's play: " + user);
   let keys = ["Rock", "Paper", "Scissors"];
 
   let compInput = keys[Math.floor(Math.random() * keys.length)];
   let bot = compInput.charAt(0);
-  console.log(bot);
+  console.log("Bot's play: " + bot);
   if (
     (user === "R" && bot === "R") ||
     (user === "P" && bot === "P") ||
