@@ -1,4 +1,4 @@
-// rock paper scissors game
+// Rock Paper Scissors Game
 
 let gameBegin = () => {
   let userInput = prompt("Rock, Paper or Scissors").toUpperCase();
