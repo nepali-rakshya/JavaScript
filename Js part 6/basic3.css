@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  background: grey;
+  padding: 1em;
+  gap: 4em;
+}
+
+ul li {
+  list-style: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+table,
+tbody,
+thead {
+  background: rgba(201, 196, 196, 0.452);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.6em;
+  border-bottom: 2px solid white;
+}

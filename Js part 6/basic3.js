@@ -1,4 +1,4 @@
-console.log(document.body.parentNode.parentNode.parentNode);
+console.log(typeof document.body.parentNode.parentNode);
 
 console.log(document.body.firstElementChild);
 console.log(document.body.hasChildNodes());
@@ -11,3 +11,5 @@ let node = document.body.childNodes;
 console.log(node);
 
 console.log(document.getElementsByTagName("body"));
+console.log(document.head.nextElementSibling);
+console.log(document.body.previousElementSibling);
