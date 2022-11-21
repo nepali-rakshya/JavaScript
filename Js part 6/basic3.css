@@ -31,3 +31,14 @@ td {
   padding: 0.6em;
   border-bottom: 2px solid white;
 }
+
+caption.heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+caption.below {
+  caption-side: bottom;
+  font-size: 0.79rem;
+}
