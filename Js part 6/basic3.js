@@ -37,5 +37,15 @@
 
 // console.log(tableCheck);
 
-let thirdRow = document.querySelector("table").rows[3];
-Array.from(thirdRow);
+let thirdRow = document.querySelector("table");
+
+let lastRow = thirdRow.lastElementChild.lastElementChild;
+
+console.log(lastRow);
+
+// for (let row of lastRow) {
+for (cell in lastRow.cells) {
+  let val = (cell.innerText = "help"); // your code below
+  console.log(val);
+}
+// }
