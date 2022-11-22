@@ -6,11 +6,20 @@ for (let row of mytab1.rows) {
 
 let array = ["rakshya", "is", "a", "good", "girl"];
 
-let space = "";
-for (let i = array.length; i > 0; i--) {
-  space += i + " ";
-  console.log(space);
-}
+let string = "Iamagoodgirl";
+console.log(Array.from(string));
+
+console.log(Array.isArray([...string]));
+console.log([...string]);
+
+// console.log(isNaN(5));
+console.log(Array.isArray(string));
+
+// let space = "";
+// for (let i = array.length; i > 0; i--) {
+//   space += i + " ";
+//   console.log(space);
+// }
 // console.log(space);
 
 // for (key in array) {

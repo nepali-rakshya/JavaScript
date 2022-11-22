@@ -39,13 +39,23 @@
 
 let thirdRow = document.querySelector("table");
 
-let lastRow = thirdRow.lastElementChild.lastElementChild;
+let lastRow = thirdRow.lastElementChild.lastElementChild.cells;
+let value = Array.from(lastRow);
+console.log(value);
 
-console.log(lastRow);
+console.log(Array.isArray(lastRow));
+
+console.log([...lastRow]);
+
+console.log(Array.isArray(...lastRow));
+
+// [...lastRow].forEach((element) => {
+//   element.innerText = "help";
+// });
 
 // for (let row of lastRow) {
-for (cell in lastRow.cells) {
-  let val = (cell.innerText = "help"); // your code below
-  console.log(val);
-}
+// for (cell in lastRow.cells) {
+//   let val = (cell.innerText = "help"); // your code below
+//   console.log(val);
+// }
 // }
