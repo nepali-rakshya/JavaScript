@@ -32,7 +32,10 @@
 //   document.body.firstElementChild.nextElementSibling.rows[0].children[3]
 //     .cellIndex;
 
-let tableCheck =
-  document.body.firstElementChild.nextElementSibling.rows[0].rowIndex;
+// let tableCheck =
+//   document.body.firstElementChild.nextElementSibling.rows[0].rowIndex;
 
-console.log(tableCheck);
+// console.log(tableCheck);
+
+let thirdRow = document.querySelector("table").rows[3];
+Array.from(thirdRow);
