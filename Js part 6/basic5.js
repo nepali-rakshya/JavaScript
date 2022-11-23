@@ -5,3 +5,5 @@ let navBar = document.querySelector("ul").firstElementChild.firstElementChild;
 console.log((navBar.style.color = "red"));
 
 console.log(navBar);
+
+document.querySelector("ul").forEach();
