@@ -6,4 +6,6 @@ console.log((navBar.style.color = "red"));
 
 console.log(navBar);
 
-document.querySelector("ul").forEach();
+Array.from(document.querySelectorAll("li")).forEach((element) => {
+  element.style.background = "cyan";
+});
