@@ -26,7 +26,7 @@ function backround() {
   count++;
 }
 
-// setInterval(backround(), 1000);
+setInterval(backround, 2000);
 
 // let num = 0;
 
