@@ -35,4 +35,10 @@ let values = ["aadarsha", "rakshya", "sita", "chiranjibi", "sujal"];
 //   })
 // );
 
-console.log(values.sort());
+// console.log(values.sort());
+
+// var sortAlphabets = function (text) {
+//   return text.split("").sort().join("");
+// };
+
+// console.log(sortAlphabets("drpoklj"));
