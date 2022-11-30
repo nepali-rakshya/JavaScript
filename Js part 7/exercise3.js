@@ -21,6 +21,6 @@ let link = document.getElementById("youtube");
 //   console.log(await fetchContent(url));
 // }, 5000);
 
-link.addEventListener("click", () => {
-  link.classList.toggle("bulb");
-});
+// setInterval(() => {
+//   link.classList.toggle("bulb");
+// }, 1000);
