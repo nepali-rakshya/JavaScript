@@ -23,4 +23,4 @@ let link = document.getElementById("youtube");
 
 // setInterval(() => {
 //   link.classList.toggle("bulb");
-// }, 1000);
+// }, 1);
