@@ -16,6 +16,7 @@
 function myDisplayer() {
   //   document.getElementById("container").innerHTML = something;
   let sum = 10;
+  //   console.log(sum);
   return sum;
 }
 
