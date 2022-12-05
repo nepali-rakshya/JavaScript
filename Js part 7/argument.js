@@ -1,4 +1,4 @@
-function arg() {
+function arg(...args) {
   //   let length = ["apple", "orange", "juice"];
   //   for (let len of length) {
   //     console.log(len);
@@ -11,8 +11,7 @@ function arg() {
   //     // console.log(arguments[i]);
   //   }
   //   console.log(sum);
-
-  let length = Array.from(arguments);
+  //   let length = Array.from(arguments);
   //   let values = length.map((value) => {
   //     console.log(value);
   //     return "elephant";
@@ -22,11 +21,14 @@ function arg() {
   //     return x > 3;
   //   });
   //   console.log(values);
+  //   let values = length.reduce((x1, x2) => {
+  //     return x1 + x2;
+  //   });
+  //   console.log(values);
 
-  let values = length.reduce((x1, x2) => {
-    return x1 + x2;
-  });
-  console.log(values);
+  let argumentLength = arguments;
+  console.log(argumentLength);
+  console.log(arguments[0] + arguments[1]);
 }
 
 arg(1, 2, 3, 4, 5, 6);
