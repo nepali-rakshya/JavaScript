@@ -73,3 +73,42 @@
 // console.log(start);
 // console.log(end);
 // console.log(new Date().getTime());
+
+//  program that shows the delay in execution
+
+// function greet() {
+//   console.log("Hello world");
+// }
+
+// function sayName(name, callbackgreet) {
+//   setTimeout(() => {
+//     console.log("Hello" + " " + name);
+//   }, 2000);
+//   callbackgreet();
+// }
+
+// // calling the function
+// // setTimeout(greet, 2000);
+// // sayName("John");
+
+// // setTimeout(sayName, 2000);
+// // greet();
+
+// sayName("John", greet);
+
+// Callback Function Example
+function greet(name, myFunction) {
+  console.log("Hello world");
+
+  // callback function
+  // executed only after the greet() is executed
+  myFunction(name);
+}
+
+// callback function
+function sayName(name) {
+  console.log("Hello" + " " + name);
+}
+
+// calling the function after 2 seconds
+setTimeout(greet, 2000, "John", sayName);
