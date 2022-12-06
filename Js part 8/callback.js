@@ -20,4 +20,15 @@
 //   console.log("The sum is " + sum);
 // });
 
-const myCalcul
+const myCalc = (
+  a,
+  b,
+  display = function (sum) {
+    console.log("The sum is " + sum);
+  }
+) => {
+  let sum = a + b;
+  display(sum);
+};
+
+myCalc(1, 2);
