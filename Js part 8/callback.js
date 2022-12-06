@@ -46,26 +46,21 @@
 
 // console.log(display2());
 
-let rakPlay = new Promise((resolve, reject) => {
-  let name = prompt("What's your name?");
-  resolve((() => name)());
-});
+// let rakPlay = new Promise((resolve, reject) => {
+//   let name = prompt("What's your name?");
+//   resolve((() => name)());
+// });
 
-rakPlay // its a parameter not function
-  .then((result) => {
-    // const display = (result) => {
-    setTimeout(() => console.log("love you " + result), 2000);
-    // };
-    // display;
-  });
-
-//   .then((result2) => result2 + " love")
-//   .then((result3) => {
-//     // let value = prompt("Anything else?");
-
-//     console.log(result3 + " you ");
+// rakPlay // its a parameter not function
+//   .then((result) => {
+//     setTimeout(() => console.log(result), 1000);
+//   })
+//   .then(() => {
+//     setTimeout(() => console.log("I"), 2000);
+//   })
+//   .then(() => {
+//     setTimeout(() => console.log("like"), 3000);
+//   })
+//   .then(() => {
+//     setTimeout(() => console.log("you"), 4000);
 //   });
-
-// setTimeout(() => {
-//   console.log("love you");
-// }, 1000);
