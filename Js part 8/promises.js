@@ -57,10 +57,21 @@
 
 // console.log(promise1, promise2);
 
-let p = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve(true);
-  });
-});
+// let p = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve(true);
+//   }, 0);
+//   // reject(new Error("It's invalid"));
+// });
 
-p.then(() => alert("hola"));
+// p.then(
+//   (result) => {
+//     console.log("It's success");
+//   },
+//   (error) => {
+//     console.log(error + " try again");
+//   },
+//   (result) => {
+//     console.log(result);
+//   }
+// );
