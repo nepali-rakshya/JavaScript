@@ -22,7 +22,55 @@
 // }
 // welcome("Hello", sayMyName);
 
-function getAPIRequest(callbackOnSuccess) {
+// function getAPIRequest(callbackOnSuccess) {
+//   var getReq = new XMLHttpRequest();
+//   getReq.open("GET", "https://reqres.in/api/users?page=2");
+//   getReq.send();
+//   getReq.onload = () => {
+//     if (getReq.status == 200) {
+//       callbackOnSuccess(getReq);
+//     }
+//   };
+// }
+// function processSucessResponse(request) {
+//   alert("The response is " + request.response);
+// }
+// getAPIRequest(processSucessResponse);
+
+// function getAPIRequest(callbackOnSuccess, callbackOnError) {
+//   var getReq = new XMLHttpRequest();
+//   getReq.open("GET", "https://reqres.in/api/users?page=2");
+//   getReq.send();
+//   getReq.onload = () => {
+//     if (getReq.status == 200) {
+//       callbackOnSuccess(getReq);
+//     } else if (getReq.status == 400) {
+//       callbackOnError();
+//     }
+//   };
+// }
+// function processSucessResponse(request) {
+//   alert("The response is " + request.response);
+// }
+// function processErrorResponse() {
+//   alert("The response has some errors.");
+// }
+// getAPIRequest(processSucessResponse, processErrorResponse);
+
+function getAPIRequest(callbackOnSuccess, callbackOnError) {
+  var getReq = new XMLHttpRequest();
+  getReq.open("GET", "https://reqres.in/api/users?page=2");
+  getReq.send();
+  getReq.onload = () => {
+    if (getReq.status == 200) {
+      callbackOnSuccess(getReq, processNestedResponse);
+    } else if (getReq.status == 400) {
+      callbackOnError();
+    }
+  };
+}
+function processSucessResponse(request, callbackOnSuccess) {
+  alert("The response is " + request.response);
   var getReq = new XMLHttpRequest();
   getReq.open("GET", "https://reqres.in/api/users?page=2");
   getReq.send();
@@ -32,7 +80,10 @@ function getAPIRequest(callbackOnSuccess) {
     }
   };
 }
-function processSucessResponse(request) {
+function processErrorResponse() {
+  alert("The response has some errors.");
+}
+function processNestedResponse(request) {
   alert("The response is " + request.response);
 }
-getAPIRequest(processSucessResponse);
+getAPIRequest(processSucessResponse, processErrorResponse);
