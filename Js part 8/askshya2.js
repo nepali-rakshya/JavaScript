@@ -78,10 +78,10 @@
 
 /// BLOCKING THE MAIN THREAD
 
-console.log("Start");
+// console.log("Start");
 
-setTimeout(() => {
-  console.log("callback");
-}, 0);
+// setTimeout(() => {
+//   console.log("callback");
+// }, 0);
 
-console.log("hola senor");
+// console.log("hola senor");
