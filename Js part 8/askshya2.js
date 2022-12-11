@@ -45,19 +45,33 @@
 
 //
 
-let promise = new Promise((res, rej) => {
-  let name = prompt("What is your name :");
-  console.log(`My name is ${name}`);
-  res(name);
-});
+// let promise = new Promise((res, rej) => {
+//   let name = prompt("What is your name :");
+//   console.log(`My name is ${name}`);
+//   res(name);
+// });
 
-promise
-  .then((stdName) => {
-    let rollNo = prompt(`${stdName}, what is your roll no :`);
-    console.log("My roll number is : " + rollNo);
-    return stdName;
-  })
-  .then((stdName) => {
-    let subj = prompt(`What did you major in, ${stdName.slice(0, 7)} :`);
-    console.log(`I majored in ${subj}`);
-  });
+// promise
+//   .then((stdName) => {
+//     let rollNo = prompt(`${stdName}, what is your roll no :`);
+//     console.log("My roll number is : " + rollNo);
+//     return stdName;
+//   })
+//   .then((stdName) => {
+//     let subj = prompt(`What did you major in, ${stdName.slice(0, 7)} :`);
+//     console.log(`I majored in ${subj}`);
+//   });
+
+// const get_api = "https://jsonplaceholder.typicode.com/todos/1";
+
+// const user = fetch(get_api);
+
+// console.log(user);
+
+// setTimeout(() => {
+//   console.log(user);
+// }, 1000);
+
+// user.then((data) => {
+//   console.log(data);
+// });
