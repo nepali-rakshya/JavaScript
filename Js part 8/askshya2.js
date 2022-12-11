@@ -75,3 +75,13 @@
 // user.then((data) => {
 //   console.log(data);
 // });
+
+/// BLOCKING THE MAIN THREAD
+
+console.log("Start");
+
+setTimeout(() => {
+  console.log("callback");
+}, 0);
+
+console.log("hola senor");
