@@ -26,13 +26,26 @@
 // }
 // animal();
 
-function value(callbackValue) {
-  console.log("I am a value");
-  callbackValue();
+// (function value() {
+//   console.log("I am a value");
+//   return "You are a value";
+// })();
+
+// value2 = () => {
+//   console.log("You are a value");
+// };
+
+// value(value2);
+
+function x() {
+  //   var a = 7;
+  return (function y() {
+    console.log(a);
+  })();
 }
 
-value2 = () => {
-  console.log("You are a value");
-};
-
-value(value2);
+let a = 8;
+x();
+// console.log(value());
+// let a = x();
+// console.log(a());
